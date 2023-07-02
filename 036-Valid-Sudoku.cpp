@@ -23,7 +23,7 @@ public:
         for(int k = 0; k<9; k=k+3)
         for(int i = 0; i<3; i++){
             for(int j = 0; j<3; j++){
-                vectorMap[18+k/3+m][board[i+k][j]]++;
+                vectorMap[18+k/3+m][board[i+k][j+m]]++;
             }
         }
 
